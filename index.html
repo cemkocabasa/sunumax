@@ -1,88 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="icon" href="assets/img/favicon.ico">
-<title>Sunumax Hikayesi</title>
-<!-- Bootstrap core CSS -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<!-- Fonts -->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-<!-- Custom styles for this template -->
-<link href="assets/css/mediumish.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sunumax'ın kuruluş hikayesi ve geçirdiği dönüşüm.">
+    <meta name="author" content="Cem Kocabaşa, Sadık Kocabaşa">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <title>Sunumax Hikayesi</title>
+
+    <!-- Modern Bootstrap 5 CSS (CDN üzerinden, yerel dosyaya ihtiyaç duymaz) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Modern Google Fonts (Righteous ve Merriweather) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- Özel Medium Stili Tasarım -->
+    <style>
+        body {
+            background-color: #fcfcfc;
+            color: #292929;
+            -webkit-font-smoothing: antialiased;
+        }
+        .mainheading {
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .posttitle {
+            font-family: 'Righteous', sans-serif;
+            font-size: 3.5rem;
+            color: #111;
+        }
+        .featured-image {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 3rem;
+            object-fit: cover;
+            max-height: 500px;
+        }
+        .article-post {
+            font-family: 'Merriweather', serif;
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: #333;
+        }
+        .article-post p {
+            margin-bottom: 1.5rem;
+        }
+        .article-post p:first-child {
+            font-size: 1.3rem;
+            font-weight: 300;
+            color: #555;
+        }
+        footer {
+            border-top: 1px solid #eaeaea;
+            margin-top: 4rem;
+            padding: 2rem 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
 
-
-
-<!-- Begin Article
-================================================== -->
+<!-- Begin Article -->
 <div class="container">
-	<div class="row">
+    <div class="row justify-content-center">
 
+        <!-- Begin Post -->
+        <div class="col-lg-8 col-md-10 col-12">
+            
+            <div class="mainheading">
+                <h1 class="posttitle">Sunumax Hikayesi</h1>
+            </div>
 
+            <!-- Begin Featured Image -->
+            <!-- Not: Eğer yerel resim bulunamazsa geçici, şık bir ofis resmi yüklemesi için fallback eklendi -->
+            <img class="featured-image img-fluid" src="assets/img/image01.jpg" alt="Sunumax Hikayesi" onerror="this.src='https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'">
+            <!-- End Featured Image -->
 
-		<!-- Begin Post -->
-		<div class="col-md-8 col-md-offset-2 col-xs-12">
-			<div class="mainheading">
+            <!-- Begin Post Content -->
+            <div class="article-post">
+                <p>Sunumax'a olan ilginiz için teşekkür ederiz.</p>
+                
+                <p>1986 doğumlu Sadık Kocabaşa ve 1990 doğumlu Cem Kocabaşa kardeşler tarafından kurulan <strong>‘sunumax.com’</strong>, televizyon sunucusu gibi bir karakterin, sitelerde ziyaretçileri karşılayıp ürün veya hizmetleri anlatmasını sağlayan bir ürün ve prodüksiyon sunuyordu.</p>
+                
+                <p>Geliştirdikleri bu teknolojiyle kısa sürede birçok kurumsal firmaya hizmet veren Kocabaşa kardeşler, yarı yapay zekayla online karakterlerin konuşması veya sitelerin içinde belli komutlara göre iletişime geçmesi için çalışmalarını sürdürdü. Hızla gelişen teknolojiler ve web trendlerinin değişmesinden sonra ürün popülerliğini yitirdi ve pazarın daha alt segmentlerinin ilgisini çekmeye başladı.</p>
+                
+                <p>Ürünleri artık kârlı olmayan Sunumax, zaman içinde kurucularının ilgisini kaybetti.</p>
+                
+                <p>Şu anda Cem ve Sadık, <strong><a href="#" class="text-dark">Kamara</a></strong>'yı kurarak müşterilerine sanal ofis ve hazır ofis hizmetleri vermeye devam ediyorlar.</p>
+            </div>
+            <!-- End Post Content -->
 
+        </div>
+        <!-- End Post -->
 
-				<h1 class="posttitle">Sunumax Hikayesi</h1>
-
-			</div>
-
-			<!-- Begin Featured Image -->
-			<img class="featured-image img-fluid" src="assets/img/image01.jpg" alt="">
-			<!-- End Featured Image -->
-
-			<!-- Begin Post Content -->
-			<div class="article-post">
-				<p>
-Sunumax'a olan ilginiz için teşekkür ederiz.
-1986 doğumlu Sadık Kocabaşa ve 1990 doğumlu Cem Kocabaşa kardeşler tarafından kurulan ‘sunumax.com’, televizyon sunucusu gibi bir karakterin, sitelerde ziyaretçileri karşılayıp ürün veya hizmetleri anlatmasını sağlayan ürün ve prodüksiyonu sunuyordu.
-Geliştirdikleri bu teknolojiyle kısa sürede birçok kurumsal firmaya hizmet veren Kocabaşa kardeşler, yarı yapay zekayla online karakterlerin konuşması veya sitelerin içinde belli komutlara göre iletişime geçmesi için çalışmalarını sürdürdü. Hızla gelişen teknolojiler ve web trendlerinin değişmesinden sonra ürün popülerliğini yitirdi, ve pazarın daha alt segmentlerinin ilgisini çekmeye başladı. Ürünleri artık karlı olmayan Sunumax zaman içinde kurucularının ilgisini kaybetti.
-Şu anda Cem ve Kamara'yı kurarak müşterilerine sanal ofis ve hazır ofis hizmetleri vermeye başladı.
-
-
-				</p>
-			</div>
-			<!-- End Post Content -->
-
-
-
-		</div>
-		<!-- End Post -->
-
-	</div>
+    </div>
 </div>
-<!-- End Article
-================================================== -->
+<!-- End Article -->
 
-<div class="hideshare"></div>
-
-<!-- Begin Footer
-================================================== -->
+<!-- Begin Footer -->
 <div class="container">
-	<div class="footer">
-
-		<div class="clearfix">
-		</div>
-	</div>
+    <footer>
+        <div class="text-center text-muted">
+            <small>&copy; 2026 Kamara. Tüm hakları saklıdır.</small>
+        </div>
+    </footer>
 </div>
-<!-- End Footer
-================================================== -->
+<!-- End Footer -->
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-<script src="assets/js/mediumish.js"></script>
+<!-- Modern Bootstrap 5 JavaScript (jQuery gerektirmez) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
